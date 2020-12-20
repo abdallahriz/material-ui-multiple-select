@@ -10,6 +10,10 @@
 npm install --save material-ui-multiple-select
 ```
 
+## Demo
+
+https://tickets-app-2.herokuapp.com/
+
 ## Usage
 
 ```jsx

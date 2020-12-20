@@ -13,16 +13,21 @@ npm install --save material-ui-multiple-select
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import MultipleSelect from 'material-ui-multiple-select'
 
-import MyComponent from 'material-ui-multiple-select'
-import 'material-ui-multiple-select/dist/index.css'
+const App = () => {
+  const QuestionsFields = [
+    { id: 1, question: 'Budget', disabled: false },
+    { id: 2, question: 'Food allergies', disabled: false },
+    { id: 3, question: 'Number of people', disabled: false },
+    { id: 4, question: 'Special restictions', disabled: false }
+  ]
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+  return <MultipleSelect QuestionsFields={QuestionsFields} />
 }
+
+export default App
 ```
 
 ## License

@@ -4,7 +4,10 @@
   "description": "Made with create-react-library",
   "author": "",
   "license": "MIT",
-  "repository": "/material-ui-multiple-select",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdallahriz/material-ui-multiple-select.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
